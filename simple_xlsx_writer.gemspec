@@ -7,6 +7,8 @@ require "simple_xlsx/version"
 Gem::Specification.new do |s|
   s.name        = "simple_xlsx_writer"
   s.version     = SimpleXlsx::VERSION
+  s.authors     = ["Krzysiek Krynicki"]
+  s.email       = ["krynicki.krzysiek@gmail.com"]
   s.summary     = "Excel file creator"
   s.description = "Excel file creator"
 
