@@ -1,4 +1,4 @@
-require 'zip/zip' #dep
+require 'zip' #dep
 
 __END__
 
