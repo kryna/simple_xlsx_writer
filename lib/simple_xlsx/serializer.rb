@@ -4,7 +4,7 @@ class Serializer
 
   def initialize to
     @to = to
-    Zip::ZipFile.open(to, Zip::ZipFile::CREATE) do |zip|
+    Zip::File.open(to, Zip::File::CREATE) do |zip|
       @zip = zip
       add_doc_props
       add_worksheets_directory
