@@ -1,12 +1,12 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "simple_xlsx_Writer/version"
+require "simple_xlsx/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "simple_xlsx_writer"
-  s.version     = SimpleXlsxWriter::VERSION
+  s.version     = SimpleXlsx::VERSION
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
